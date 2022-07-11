@@ -15,8 +15,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@types/jest'
 
-      - name: Instalar Pacotes
-        run: npm install
+      # - name: Instalar Pacotes
+      #   run: npm install
 
       - name: Testar Pacotes
         run: npm run test
