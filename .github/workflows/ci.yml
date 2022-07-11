@@ -8,13 +8,20 @@ jobs:
     name: SonarCloud
     runs-on: ubuntu-latest
     steps:
-      - name: Install and Test Node 16.15.0
-        uses: actions/setup-node@v3
+      - name: Checkout 
+      - uses: actions/checkout@v3
+
+      - name: Setup Node 16.15.0
+        uses: actions/setup-node@v2
         with:
           node-version: 16.15.0
-      - run: npm install
-      - run: npm run test
-      - uses: actions/checkout@v2
+
+      - name: Instalar Pacotes
+        run: npm install
+
+      - name: Testar Pacotes
+        run: npm run test
+
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
