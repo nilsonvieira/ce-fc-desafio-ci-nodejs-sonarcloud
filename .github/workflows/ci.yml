@@ -19,7 +19,7 @@ jobs:
       #   run: npm install
 
       - name: Testar Pacotes
-        run: npm run test
+        run: npm test
 
       - uses: actions/checkout@v3
       - name: SonarCloud Scan
