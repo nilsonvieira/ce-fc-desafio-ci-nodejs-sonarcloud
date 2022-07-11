@@ -5,7 +5,6 @@
     "author": "Nilson Vieira<nilsonrsvieira@gmail.com>",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js",
         "test": "jest --coverage"
     },
     "dependencies": {
