@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.15.0
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@types/jest'
 
       - name: Instalar Pacotes
         run: npm install
