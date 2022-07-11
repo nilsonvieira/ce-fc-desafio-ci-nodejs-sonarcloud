@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657512020419" clover="3.2.0">
-  <project timestamp="1657512020419" name="All files">
+<coverage generated="1657512449240" clover="3.2.0">
+  <project timestamp="1657512449240" name="All files">
     <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="9" coveredelements="9" complexity="0" loc="6" ncloc="6" packages="1" files="3" classes="3"/>
     <file name="sub.js" path="/home/nilson/Workspace/Treinamentos/CodeEducation/desafio-codeeducation-node-ci-sonarcloud/src/sub.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
