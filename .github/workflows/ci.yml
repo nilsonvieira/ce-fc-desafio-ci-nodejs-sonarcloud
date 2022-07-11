@@ -13,15 +13,8 @@ jobs:
         with:
           node-version: 16.15.0
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-
-
       - name: Instalar Pacotes
-        run: npm ci --ignore-scripts
+        run: npm install
 
       - name: Testar Pacotes
         run: npm run test
